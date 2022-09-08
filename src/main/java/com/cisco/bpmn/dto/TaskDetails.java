@@ -1,6 +1,5 @@
 package com.cisco.bpmn.dto;
 
-import liquibase.pro.packaged.P;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
