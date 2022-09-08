@@ -1,9 +1,6 @@
 package com.cisco.bpmn.service;
 
-import org.flowable.engine.ProcessEngine;
 import org.flowable.engine.RepositoryService;
-import org.flowable.engine.RuntimeService;
-import org.flowable.engine.TaskService;
 import org.flowable.engine.repository.Deployment;
 import org.springframework.stereotype.Service;
 
@@ -15,9 +12,6 @@ public class HolidayServiceImpl implements HolidayService {
     public static final String EMP_NAME = "empName";
 
     RepositoryService repositoryService;
-    TaskService taskService;
-    ProcessEngine processEngine;
-    RuntimeService runtimeService;
 
     @Override
     public void deployProcessDefinition() {
